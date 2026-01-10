@@ -11,7 +11,7 @@ Server.use(router);
 Server.use('/Uploads',express.static('./Uploads'))
 
 
-const PORT = process.env.PORT || 2000;
+const PORT = process.env.PORT || 300;
 
 Server.listen(PORT,()=>{
     console.log(`PORT is Running in ${PORT}`);
